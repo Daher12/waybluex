@@ -53,7 +53,6 @@ modules:
         - vulkan-validation-layers
         - vulkan-tools
         - google-noto-emoji-fonts
-        - ddcutil
         - openssl
         - just
         - alsa-firmware
@@ -62,23 +61,16 @@ modules:
       # sound
         - wireplumber
         - pipewire
-        - pamixer
-        - pulseaudio-utils
 
       # networking
         - iwd
         - bluez
         - bluez-tools
         - blueman
-        - firewall-config
 
       # file manager
         - nautilus
         - android-tools
-
-      # screenshot
-        - slurp
-        - grim
 
       # display
         - brightnessctl
