@@ -1,8 +1,4 @@
 modules:
-    - type: script
-      scripts:
-        - copr.sh
-
     - type: rpm-ostree
       install:
         - hyprland
