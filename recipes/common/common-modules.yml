@@ -130,6 +130,7 @@ modules:
       scripts:
         - settheming.sh
         - addbrewjustimport.sh
+        - copr.sh
 
     - type: wayblue-signing
       source: local
