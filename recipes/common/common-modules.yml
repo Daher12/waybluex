@@ -38,33 +38,26 @@ modules:
         - rofi-wayland
 
       # environment
-        - fzf
-        - tuned-ppd
+        - tlp
+        - fish
+        - newt
         - xorg-x11-server-Xwayland
-        - headsetcontrol
-        - mediainfo
         - polkit
-        - xfce-polkit 
-        - fprintd-pam
         - xdg-user-dirs
         - dbus-tools
         - dbus-daemon
         - wl-clipboard
-        - pavucontrol
         - playerctl
         - qt5-qtwayland
         - qt6-qtwayland
         - vulkan-validation-layers
         - vulkan-tools
         - google-noto-emoji-fonts
-        - gnome-disk-utility
         - ddcutil
         - openssl
-        - vim
         - just
         - alsa-firmware
         - p7zip
-        - distrobox
         
       # sound
         - wireplumber
@@ -73,29 +66,14 @@ modules:
         - pulseaudio-utils
 
       # networking
-        - network-manager-applet
-        - NetworkManager-openvpn
-        - NetworkManager-openvpn-gnome
-        - NetworkManager-openconnect
-        - NetworkManager-openconnect-gnome
+        - iwd
         - bluez
         - bluez-tools
         - blueman
         - firewall-config
 
       # file manager
-        - thunar
-        - thunar-archive-plugin 
-        - thunar-volman
-        - xarchiver
-        - imv
-        - p7zip
-        - gvfs-mtp
-        - gvfs-gphoto2
-        - gvfs-smb
-        - gvfs-nfs
-        - gvfs-fuse
-        - gvfs-archive
+        - nautilus
         - android-tools
 
       # screenshot
@@ -103,10 +81,7 @@ modules:
         - grim
 
       # display
-        - wlr-randr
-        - wlsunset
         - brightnessctl
-        - kanshi
 
       # notifications
         - dunst
@@ -114,10 +89,6 @@ modules:
       # theme and GUI
         - fontawesome-fonts-all
         - gnome-themes-extra
-        - gnome-icon-theme
-        - paper-icon-theme
-        - breeze-icon-theme 
-        - papirus-icon-theme
 
     - type: script
       scripts:
