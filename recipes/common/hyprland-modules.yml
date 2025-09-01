@@ -1,12 +1,24 @@
+  - type: script
+      scripts:
+        - copr.sh
+
 modules:
     - type: rpm-ostree
       install:
         - hyprland
+        - kitty
         - waybar
-        - xdg-desktop-portal-hyprland
-        - swaylock
-        - swayidle
-        - swaybg
+        - xdg-desktop-portal-gtk
+        - hyprpaper
+        - hypridle
+        - hyprlock
+        - hyprpolkitagent
+        - hyprshot
+        - uwsm
+        - nwg-look
+        - nwg-displays
+        - sbctl
+        - nautilus-open-any-terminal       
 
     - type: files
       files:
