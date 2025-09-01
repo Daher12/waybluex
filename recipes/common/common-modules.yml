@@ -31,6 +31,7 @@ modules:
         - ensureautoupdates.sh
         - fixupstreamicdloaderbug.sh
         - addimageinfo.sh
+        - copr.sh
 
     - type: rpm-ostree
       install:
@@ -81,6 +82,18 @@ modules:
       # theme and GUI
         - fontawesome-fonts-all
         - gnome-themes-extra
+        - hyprland
+        - xdg-desktop-portal-gtk
+        - hyprpaper
+        - hypridle
+        - hyprlock
+        - hyprpolkitagent
+        - hyprshot
+        - uwsm
+        - nwg-look
+        - nwg-displays
+        - sbctl
+        - nautilus-open-any-terminal       
 
     - type: script
       scripts:
@@ -130,7 +143,6 @@ modules:
       scripts:
         - settheming.sh
         - addbrewjustimport.sh
-        - copr.sh
 
     - type: wayblue-signing
       source: local
