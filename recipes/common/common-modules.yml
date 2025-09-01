@@ -93,6 +93,8 @@ modules:
     - type: script
       scripts:
         - installproprietarypackages.sh
+        - tailscale.sh
+        - custom.sh
 
     - type: rpm-ostree
       install:
