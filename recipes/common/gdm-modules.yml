@@ -1,8 +1,10 @@
 modules:
-    - type: rpm-ostree
+    - type: dnf
       install:
-        - gdm
-        - gnome-keyring
+        install-weak-deps: false
+        packages:
+          - gdm
+          - gnome-keyring
   
     - type: script
       scripts:
